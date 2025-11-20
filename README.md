@@ -1,6 +1,6 @@
 # ZenDesk Tools
 
-## create .venv and dependent 
+## create .venv
 
 ```
 python3.12 -m venv .venv
@@ -11,5 +11,10 @@ pip install -r requirements.txt
 ## Archive the Tool to zip file
 
 ```
-zip -r ../zendesk_requests_tool.zip . -x "*.git*" -x "*__pycache__*" -x "*.venv/lib/python*/site-packages/*"
+zip -r ../zendesk_tool.zip . -x "*.git*" -x "*__pycache__*" -x "*.venv/lib/python*/site-packages/*"
 ```
+
+## upload the Data Lake
+
+## create a Tools
+

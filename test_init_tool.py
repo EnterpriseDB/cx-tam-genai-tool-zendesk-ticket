@@ -2,8 +2,7 @@
 
 import os
 from dotenv import load_dotenv
-# from tool import init_tool
-from tool_requests import init_tool
+from tool import init_tool
 
 # Load environment variables
 load_dotenv()
